@@ -10,17 +10,33 @@ body {
 .row {
    display: flex;
    flex-wrap: wrap;
+   align-items: center;
 }
 
 .col-third {
     width: 33%;
+    text-align: center;
 }
 
-.logo{
-    width: 100%;
-    height: auto;
+
+.box1 {
+
 }
 
-.right-align {
-    text-align: right;
+.box2 {
+    font-size: 200%;
+
+}
+
+.box3 {
+
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+         }
+    .col-third {
+        width: 100%
+    }
 }
