@@ -1,23 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+
 body {
-    font-family: Arial;
+    font-family: Open Sans, sans-serif;
+    font-weight: 250;
+    color: #F9F6EE;
     background-color: #0f0f0f;
 }
 
-.container{
+.container {
     display: block;
     width: 100%;
 }
 
 .row {
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .col-third {
@@ -26,18 +31,12 @@ body {
 }
 
 
-.box1 {
+.box1 {}
 
-}
+.box2 {}
 
-.box2 {
-    
+.box3 {}
 
-}
-
-.box3 {
-
-}
 #logo {
     width: 100%;
 }
@@ -45,23 +44,25 @@ body {
 @media screen and (max-width: 600px) {
     .row {
         flex-direction: column;
-         }
-    .col-third {
-        width: 100%
-        
     }
 
+    .col-third {
+        width: 100%
+    }
+    
+    #logo {
+        width: 75%;
+    }
     .box1 {
         order: 2;
-        }
-        
+    }
+
     .box2 {
         order: 1;
-        
-        }
-        
+
+    }
+
     .box3 {
         order: 3;
     }
 }
-
