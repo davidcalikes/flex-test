@@ -14,6 +14,8 @@ body {
     background-color: #0f0f0f;
 }
 
+/* nav section */
+
 .container {
     display: block;
     width: 100%;
@@ -29,13 +31,28 @@ body {
     width: 33%;
     text-align: center;
 }
+.col-third>a{
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: inherit;
+}
 
 
-.box1 {}
+
+.col-third a:hover {
+    border-bottom: 1px solid #F9F6EE;
+}
+
+
+.box1>a {
+    margin-right: 10%;
+}
 
 .box2 {}
 
-.box3 {}
+.box3>a {
+    margin-left: 10%;
+}
 
 #logo {
     width: 100%;
