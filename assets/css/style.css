@@ -6,7 +6,6 @@
     border: none;
 }
 
-
 body {
     font-family: Open Sans, sans-serif;
     font-weight: 250;
@@ -15,6 +14,10 @@ body {
 }
 
 /* nav section */
+
+nav {
+    font-size: 110%;
+}
 
 .container {
     display: block;
@@ -29,8 +32,28 @@ body {
 
 .col-third {
     width: 33%;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
     text-align: center;
 }
+
+#media-link {
+    margin-right: 5%;
+}
+
+#about-link {
+    margin-left: 5%;
+}
+
 .col-third>a{
     letter-spacing: 4px;
     text-decoration: none;
@@ -56,13 +79,24 @@ body {
     width: 100%;
 }
 
+.hero-box {
+    height: 430px;
+    width: 100%;
+    background: url('/assets/images/CGPS1editfinal.jpg') no-repeat center center;
+} 
+
 @media screen and (max-width: 600px) {
+   
+   /* nav media query rules */
+   
     .row {
         flex-direction: column;
     }
 
     .col-third {
-        width: 100%
+        width: 100%;
+        text-align: center;
+    
     }
     
     #logo {
@@ -70,7 +104,7 @@ body {
     }
     .box1 {
         order: 2;
-        font-size: 200%;
+        font-size: 180%;
        
     }
 
@@ -83,7 +117,7 @@ body {
 
     .box3 {
         order: 3;
-        font-size: 200%;
+        font-size: 180%;
     }
 
     .box1>a {
@@ -95,6 +129,25 @@ body {
         margin: 20%;
         
     }
+
+    .align-right {
+        text-align: center;
+    }
+    
+    .align-left {
+        text-align: center;
+    }
+
+    #media-link {
+        margin: 20%;
+    }
+    
+    #about-link {
+        margin: 20%;
+    }
+    /* Hero image media query rules */
+
+    
 }
 
 
