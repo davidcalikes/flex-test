@@ -48,8 +48,6 @@ body {
     margin-right: 10%;
 }
 
-.box2 {}
-
 .box3>a {
     margin-left: 10%;
 }
@@ -72,14 +70,32 @@ body {
     }
     .box1 {
         order: 2;
+        font-size: 200%;
+       
     }
 
     .box2 {
-        order: 1;
+       order: 1;
+       margin-bottom: 10px;
+       
 
     }
 
     .box3 {
         order: 3;
+        font-size: 200%;
+    }
+
+    .box1>a {
+        margin: 20%;
+        
+    }
+    
+    .box3>a {
+        margin: 20%;
+        
     }
 }
+
+
+
