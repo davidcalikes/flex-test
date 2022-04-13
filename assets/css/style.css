@@ -54,7 +54,7 @@ nav {
     margin-left: 5%;
 }
 
-.col-third>a{
+.col-third>a {
     letter-spacing: 4px;
     text-decoration: none;
     color: inherit;
@@ -70,7 +70,7 @@ nav {
 .box1>a {
     margin-right: 10%;
 }
-
+   
 .box3>a {
     margin-left: 10%;
 }
@@ -83,12 +83,12 @@ nav {
     height: 430px;
     width: 100%;
     background: url('/assets/images/CGPS1editfinal.jpg') no-repeat center center;
-} 
+}
 
 @media screen and (max-width: 600px) {
-   
-   /* nav media query rules */
-   
+
+    /* nav media query rules */
+
     .row {
         flex-direction: column;
     }
@@ -96,22 +96,24 @@ nav {
     .col-third {
         width: 100%;
         text-align: center;
-    
+
     }
-    
+
     #logo {
         width: 75%;
     }
+
     .box1 {
         order: 2;
         font-size: 180%;
-       
+
     }
 
     .box2 {
-       order: 1;
-       margin-bottom: 10px;
-       
+        order: 1;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
 
     }
 
@@ -122,18 +124,18 @@ nav {
 
     .box1>a {
         margin: 20%;
-        
+
     }
-    
+
     .box3>a {
         margin: 20%;
-        
+
     }
 
     .align-right {
         text-align: center;
     }
-    
+
     .align-left {
         text-align: center;
     }
@@ -141,14 +143,18 @@ nav {
     #media-link {
         margin: 20%;
     }
-    
+
     #about-link {
         margin: 20%;
     }
+
     /* Hero image media query rules */
+    .hero-box {
+        height: 400px;
+        width: 100%;
+        background: url('/assets/images/CG_Small.jpg') no-repeat center center;
 
-    
+
+    }
+
 }
-
-
-
