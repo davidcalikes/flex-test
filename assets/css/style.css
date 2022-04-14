@@ -13,6 +13,20 @@ body {
     background-color: #0f0f0f;
 }
 
+
+h1, h2 {
+    font-family: Source Sans Pro,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(254, 253, 248);
+    text-align: center;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+
 /* nav section */
 
 nav {
@@ -60,8 +74,6 @@ nav {
     color: inherit;
 }
 
-
-
 .col-third a:hover {
     border-bottom: 1px solid #F9F6EE;
 }
@@ -80,10 +92,51 @@ nav {
 }
 
 .hero-box {
-    height: 430px;
+    height: 400px;
     width: 100%;
-    background: url('/assets/images/CGPS1editfinal.jpg') no-repeat center center;
+    background: url('/assets/images/CGPS1editfinal.jpg') no-repeat center center;   
 }
+
+/* Upcoming Dates Section */
+
+i {
+    font-size: 240%;
+}
+
+.dates-box {
+    height: 600px;
+    width: 100%;
+    background: url('/assets/images/railway.jpg') no-repeat center center;
+    margin-top: 50px;
+}
+
+
+#dates {
+    height: 600px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+
+#dates ul {
+    width: 600px;
+    font-size: 110%;
+    list-style: none;
+    background-color: rgba(69, 68, 68, 0.7);
+    margin: 0 auto;
+    margin-top: 2%;   
+}
+#dates a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+#dates a:hover {
+    border-bottom: 1px solid orange ;
+}
+
 
 @media screen and (max-width: 600px) {
 
@@ -106,15 +159,14 @@ nav {
     .box1 {
         order: 2;
         font-size: 180%;
-
+    
     }
 
     .box2 {
         order: 1;
         margin-top: 10px;
         margin-bottom: 10px;
-
-
+    
     }
 
     .box3 {
