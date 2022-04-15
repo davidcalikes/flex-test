@@ -104,6 +104,9 @@ i {
     font-size: 240%;
 }
 
+h2 {
+    margin-bottom: 60px ;
+}
 
 .col {
     display: flex;
@@ -112,28 +115,26 @@ i {
     flex-direction: column;
 }
 
-
 .row-third {
-    width: 33%;
-    
+    width: 100%;  
 }
 
 #dates {
     height: 600px;
-    width: 100%;
+    width: auto;
     text-align: center;
     margin-bottom: 2%;
     background: url('/assets/images/railway.jpg') no-repeat center center;
-    margin-top: 50px;
+    
 }
 
 #dates ul {
-    width: fit-content;
+    width: 600px;
     font-size: 110%;
     list-style: none;
     background-color: rgba(69, 68, 68, 0.7);
     margin: 0 auto;
-    margin-top: 2%;   
+    margin-bottom: 5%;   
 }
 #dates a {
     text-decoration: none;
@@ -209,12 +210,24 @@ i {
     }
 
     /* Hero image media query rules */
+    
     .hero-box {
         height: 400px;
         width: 100%;
         background: url('/assets/images/CG_Small.jpg') no-repeat center center;
+}
 
+#dates ul {
+    width: auto;
+    font-size: 110%;
+    list-style: none;
+    background-color: rgba(69, 68, 68, 0.7);
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
 
-    }
+h2 {
+    margin-bottom: 20px;
+}
 
 }
