@@ -29,6 +29,7 @@ h2 {
 
 /* nav section */
 
+
 nav {
     font-size: 110%;
 }
@@ -103,24 +104,31 @@ i {
     font-size: 240%;
 }
 
-.dates-box {
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.row-third {
+    width: 33%;
+    
+}
+
+#dates {
     height: 600px;
     width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
     background: url('/assets/images/railway.jpg') no-repeat center center;
     margin-top: 50px;
 }
 
-
-#dates {
-    height: 600px;
-    width: auto;
-    text-align: center;
-    margin-bottom: 2%;
-
-}
-
 #dates ul {
-    width: 600px;
+    width: fit-content;
     font-size: 110%;
     list-style: none;
     background-color: rgba(69, 68, 68, 0.7);
