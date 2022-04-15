@@ -47,6 +47,7 @@ nav {
 
 .col-third {
     width: 33%;
+    text-align: center;
 }
 
 .align-right {
@@ -105,7 +106,8 @@ i {
 }
 
 h2 {
-    margin-bottom: 60px ;
+    margin-top: 3%;
+    margin-bottom: 3% ;
 }
 
 .col {
@@ -123,7 +125,7 @@ h2 {
     height: 600px;
     width: auto;
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     background: url('/assets/images/railway.jpg') no-repeat center center;
     
 }
@@ -134,7 +136,7 @@ h2 {
     list-style: none;
     background-color: rgba(69, 68, 68, 0.7);
     margin: 0 auto;
-    margin-bottom: 5%;   
+    margin-bottom: 3%;   
 }
 #dates a {
     text-decoration: none;
@@ -146,6 +148,56 @@ h2 {
     border-bottom: 1px solid orange ;
 }
 
+/* Upcoming Dates Section */
+
+#mailing-list {
+    height: 200px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 3%;
+   
+    
+}
+
+#mailing-list ul {
+    width: 300px;
+    font-size: 110%;
+    list-style: none;
+    background-color: rgba(69, 68, 68, 0.7);
+    margin: 0 auto;
+    margin-bottom: 3%;   
+}
+#mailing-list a {
+    text-decoration: none;
+    color: orange;
+}
+
+.mailing-list-form {
+    margin-top: 2%;
+}
+
+#mailing-list a:hover {
+    border-bottom: 1px solid orange ;
+}
+
+
+#news {
+    height: 600px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 3%;
+    background: url('/assets/images/Mailing-list.jpg') no-repeat center center;
+    
+}
+
+
+
+#footer-container {
+    height: 200px;
+    width: 100%;
+    background: url('/assets/images/mailfire.jpg') no-repeat center center; 
+
+}
 
 @media screen and (max-width: 600px) {
 
