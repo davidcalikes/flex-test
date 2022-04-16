@@ -152,6 +152,9 @@ h3 {
     border-bottom: 1px solid orange ;
 }
 
+#news a:hover {
+    border-bottom: 1px solid orange ;
+}
 /* Upcoming Dates Section */
 
 #mailing-list {
@@ -189,8 +192,14 @@ h3 {
 
 /* News Section */
 
-#news {
-    height: 550px;
+#news a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+#news-top {
+    height: auto;
     width: auto;
     margin-bottom: 3%;
     background: url('/assets/images/Mailing-list.jpg') no-repeat center center;
@@ -198,11 +207,19 @@ h3 {
 }
 
 #news-middle {
-    height: 550px;
+    height: auto;
     width: auto;
     margin-bottom: 3%;
-    background: url('/assets/images/news-middle.jpg') no-repeat center center;
+    
 }
+
+#news-bottom{
+    height: auto;
+    width: auto;
+    margin-bottom: 3%;
+    background: url('/assets/images/news-bottom.jpg') no-repeat center center;
+}
+
 .col-half {
     width: 50%;
     text-align: center;
@@ -211,12 +228,19 @@ h3 {
 #CD {
     width: 80%;
     filter: drop-shadow(30px 10px 4px #0f0f0f);
+    margin-bottom: 3%;
 }
 
-.news-text {
+.news-text{
     width: 80%;
     background-color: rgba(69, 68, 68, 0.7);
     margin: 3%;
+}
+
+.news-text-middle {
+    background-color: rgba(69, 68, 68, 0.7);
+    margin: 3%;
+    margin-left: 20%;
 }
 
 #baldricks {
@@ -228,10 +252,17 @@ h3 {
     order: 2;
 }
 
+#festival-poster {
+    width: 45%;
+    filter: drop-shadow(30px 10px 4px #0f0f0f);
+    margin-top: 3%;
+}
+
+
 
 #footer-container {
     height: 200px;
-    width: 100%;
+    width: auto;
     background: url('/assets/images/footer-fire.jpg') no-repeat center center; 
     
 
@@ -325,14 +356,17 @@ h2 {
 /* news section style rules for less than 600px*/
 
 .news-text {
-    width: 100%;
+    width: auto;
     background-color: rgba(69, 68, 68, 0.7);
 }
-#news {
-    height: 600px;
+.news-box2 {
+    order: 0;
 }
-.news-box2{
-    order: 1;
+
+.news-text-middle {
+    background-color: rgba(69, 68, 68, 0.7);
+    margin: 3%;
+    margin-left: 0;
 }
 
 
