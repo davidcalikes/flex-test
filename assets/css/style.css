@@ -110,6 +110,10 @@ h2 {
     margin-bottom: 3% ;
 }
 
+h3 {
+    margin-bottom: 3%;
+}
+
 .col {
     display: flex;
     flex-wrap: wrap;
@@ -164,7 +168,7 @@ h2 {
     font-size: 110%;
     list-style: none;
     background-color: rgba(69, 68, 68, 0.7);
-    margin: 0 auto;
+    
     margin-bottom: 3%;   
 }
 #mailing-list a {
@@ -173,7 +177,9 @@ h2 {
 }
 
 .mailing-list-form {
-    margin-top: 2%;
+    height: 30px;
+    
+    background-color: rgba(69, 68, 68, 0.7);
 }
 
 #mailing-list a:hover {
@@ -181,23 +187,57 @@ h2 {
 }
 
 
+/* News Section */
+
 #news {
-    height: 600px;
+    height: 550px;
     width: auto;
-    text-align: center;
     margin-bottom: 3%;
     background: url('/assets/images/Mailing-list.jpg') no-repeat center center;
     
 }
 
+#news-middle {
+    height: 550px;
+    width: auto;
+    margin-bottom: 3%;
+    background: url('/assets/images/news-middle.jpg') no-repeat center center;
+}
+.col-half {
+    width: 50%;
+    text-align: center;
+}
+
+#CD {
+    width: 80%;
+    filter: drop-shadow(30px 10px 4px #0f0f0f);
+}
+
+.news-text {
+    width: 80%;
+    background-color: rgba(69, 68, 68, 0.7);
+    margin: 3%;
+}
+
+#baldricks {
+    width: 50%;
+    filter: drop-shadow(30px 10px 4px #0f0f0f);
+    margin-top: 3%;
+}
+.news-box2 {
+    order: 2;
+}
 
 
 #footer-container {
     height: 200px;
     width: 100%;
-    background: url('/assets/images/mailfire.jpg') no-repeat center center; 
+    background: url('/assets/images/footer-fire.jpg') no-repeat center center; 
+    
 
 }
+
+
 
 @media screen and (max-width: 600px) {
 
@@ -281,5 +321,19 @@ h2 {
 h2 {
     margin-bottom: 20px;
 }
+
+/* news section style rules for less than 600px*/
+
+.news-text {
+    width: 100%;
+    background-color: rgba(69, 68, 68, 0.7);
+}
+#news {
+    height: 600px;
+}
+.news-box2{
+    order: 1;
+}
+
 
 }
