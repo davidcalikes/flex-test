@@ -9,7 +9,6 @@
 
 body {
     font-family: Open Sans, sans-serif;
-    font-size: 20px;
     font-weight: 250;
     color: #F9F6EE;
     background-color: #0f0f0f;
@@ -385,23 +384,20 @@ h3 {
         .footer-box3>a {
             margin-left: 10%;
         }
+
     
 /* @media screen and (max-width: 600px) {  
 
-
-@media screen and (max-width: 600px) { */   
+    
 /* nav media query rules */
 
 @media screen and (max-width: 600px) {
 
-    .row {
-        flex-direction: column;
-    }
+    
 
     .col-third {
         width: 100%;
         text-align: center;
-
     }
 
     #logo {
@@ -410,7 +406,10 @@ h3 {
 
     .box1 {
         order: 2;
-        font-size: 180%;
+        font-size: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        width: 33%;
     
     }
 
@@ -418,21 +417,26 @@ h3 {
         order: 1;
         margin-top: 10px;
         margin-bottom: 10px;
-    
+        
+       
     }
 
     .box3 {
         order: 3;
-        font-size: 180%;
+        font-size: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        width: 33%;
+        
     }
 
     .box1>a {
-        margin: 20%;
+        margin: 1%;
 
     }
 
     .box3>a {
-        margin: 20%;
+        margin: 1%;
 
     }
 
@@ -445,11 +449,11 @@ h3 {
     }
 
     #media-link {
-        margin: 20%;
+        margin: 1%;
     }
 
     #about-link {
-        margin: 20%;
+        margin: 1%;
     }
 
     /* Hero image media query rules */
