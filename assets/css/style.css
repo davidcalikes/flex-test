@@ -107,7 +107,7 @@ footer .col-third a:hover {
 .hero-box {
     height: 400px;
     width: 100%;
-    background: url('/assets/images/CGPS1editfinal.jpg') no-repeat center center;   
+    background: url('../images/CGPS1editfinal.jpg') no-repeat center center;   
 }
 
 /* Upcoming Dates Section */
@@ -141,7 +141,7 @@ h3 {
     width: auto;
     text-align: center;
     margin-bottom: 3%;
-    background: url('/assets/images/railway.jpg') no-repeat center center;
+    background: url('../images/railway.jpg') no-repeat center center;
     
 }
 
@@ -213,7 +213,7 @@ h3 {
     height: auto;
     width: auto;
     margin-bottom: 3%;
-    background: url('/assets/images/news-top.jpg') no-repeat center center;
+    background: url('../images/news-top.jpg') no-repeat center center;
     
 }
 
@@ -221,14 +221,14 @@ h3 {
     height: auto;
     width: auto;
     margin-bottom: 3%;
-    background: url('/assets/images/news-middle.jpg') no-repeat center center;
+    background: url('../images/news-middle.jpg') no-repeat center center;
 }
 
 #news-bottom{
     height: auto;
     width: auto;
     margin-bottom: 3%;
-    background: url('/assets/images/news-bottom.jpg') no-repeat center center;
+    background: url('../images/news-bottom.jpg') no-repeat center center;
 }
 
 .col-half {
@@ -266,7 +266,7 @@ h3 {
 .fire-box {
     height: 600px;
     width: 100%;
-    background: url('/assets/images/footer-fire.jpg') no-repeat center center;   
+    background: url('../images/footer-fire.jpg') no-repeat center center;   
 }
 
 #festival-poster {
@@ -359,7 +359,7 @@ h3 {
     .hero-box {
         height: 400px;
         width: 100%;
-        background: url('../assets/images/CG_Small.jpg') no-repeat center center;
+        background: url('../images/CG_Small.jpg') no-repeat center center;
 }
 
 #dates ul {
