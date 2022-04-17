@@ -297,10 +297,22 @@ h3 {
 
 /* media page styling  */
 
-.video-box {
-    height:fit-content;
-    width:fit-content;
+#video {
+    height: 550px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 3%;
+    background: url('../images/railway.jpg') no-repeat center center;
+    
 }
+
+#video p {
+    margin-top: 30px;
+    background-color: rgba(69, 68, 68, 0.7);
+    text-align: center;
+}
+
+
 
 @media screen and (max-width: 600px) {
 
