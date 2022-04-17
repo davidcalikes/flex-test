@@ -406,10 +406,11 @@ h3 {
 
     .box1 {
         order: 2;
-        font-size: 80%;
+        font-size: 100%;
         display: flex;
         justify-content: space-evenly;
         width: 50%;
+        
     
     }
 
@@ -423,7 +424,7 @@ h3 {
 
     .box3 {
         order: 3;
-        font-size: 80%;
+        font-size: 100%;
         display: flex;
         justify-content: space-evenly;
         width: 50%;
