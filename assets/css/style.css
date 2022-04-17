@@ -176,6 +176,10 @@ h3 {
    
     
 }
+#mailing-list h3 {
+    color: #0f0f0f;
+    background: linear-gradient(to right, #0f0f0f, #e55e1d, #fcf6ba,#e55e1d, #0f0f0f);
+}
 
 #mailing-list ul {
     width: 300px;
@@ -193,7 +197,6 @@ h3 {
 .mailing-list-form {
     height: 30px;
     
-    background-color: rgba(69, 68, 68, 0.7);
 }
 
 #mailing-list a:hover {
