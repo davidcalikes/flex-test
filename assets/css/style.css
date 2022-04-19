@@ -183,40 +183,32 @@ h3 {
 }
 /* Upcoming Dates Section */
 
+.row-half {
+
+    width: 100%;
+
+}
+form {
+    text-align: center;
+}
+
 #mailing-list {
     height: 200px;
     width: auto;
     text-align: center;
     margin-bottom: 3%;
-   
-    
+      
 }
 #mailing-list h3 {
     color: #0f0f0f;
     background: linear-gradient(to right, #0f0f0f, #e55e1d, #fcf6ba,#e55e1d, #0f0f0f);
 }
 
-#mailing-list ul {
-    width: 300px;
-    font-size: 110%;
-    list-style: none;
-    background-color: rgba(69, 68, 68, 0.7);
-    
-    margin-bottom: 3%;   
-}
 #mailing-list a {
     text-decoration: none;
     color: orange;
 }
 
-#mailing-list-form {
-    
-    width: 33%;
-    
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
 
 #mailing-list a:hover {
     border-bottom: 1px solid #e55e1d ;
@@ -330,6 +322,10 @@ h3 {
     margin-top: 30px;
     background-color: rgba(69, 68, 68, 0.7);
     text-align: center;
+}
+
+#audio-container {
+    background: url('../images/radio.jpg') no-repeat center center;
 }
 
 
