@@ -94,11 +94,11 @@ footer .col-third a:hover {
 }
 
 .footer-box1>a {
-    margin-right: 10%;
+    margin-right: 25%;
 }
    
 .footer-box3>a {
-    margin-left: 10%;
+    margin-left: 25%;
 }
 
 #logo {
@@ -151,7 +151,7 @@ h3 {
 }
 
 #dates {
-    height: 600px;
+    height: auto;
     width: auto;
     text-align: center;
     margin-bottom: 3%;
@@ -506,9 +506,11 @@ h2 {
 /* footer queries */
 
 .footer-box1 {
-    order: 2;
-    font-size: 180%;
-
+    order: 3;
+    font-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
 }
 
 .footer-box2 {
@@ -520,8 +522,28 @@ h2 {
 
 .footer-box3 {
     order: 3;
-    font-size: 180%;
+    font-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
 }
 
+#footer-info {
+    order: 4;
+    margin-top: 10%;
 }
-    }}
+#footer-logo {
+    width: 50%;
+}
+
+#fb-link {
+    margin-left: 15%;
+}
+
+#spfy-link {
+    margin-right: 15%;
+}
+   
+}
+}
+}
