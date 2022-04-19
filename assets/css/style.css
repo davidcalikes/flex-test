@@ -136,7 +136,7 @@ h2 {
 
 h3 {
     margin-bottom: 3%;
-    margin-top: 3%;
+    font-size: 170%;
 }
 
 .col {
@@ -208,9 +208,13 @@ h3 {
     color: orange;
 }
 
-.mailing-list-form {
-    height: 30px;
+#mailing-list-form {
     
+    width: 33%;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #mailing-list a:hover {
@@ -485,8 +489,15 @@ h2 {
     margin-bottom: 20px;
 }
 
+#form-container {
+    display: block;
+    text-align: center;
+}
+
 
 /* news section style rules for less than 600px*/
+
+
 
 .news-text {
     width: auto;
@@ -498,7 +509,6 @@ h2 {
 
 .news-text-middle {
     background-color: rgba(69, 68, 68, 0.7);
-    margin: 3%;
     margin-left: 0;
     
 }
