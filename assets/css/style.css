@@ -136,6 +136,7 @@ h2 {
 
 h3 {
     margin-bottom: 3%;
+    margin-top: 3%;
 }
 
 .col {
@@ -258,16 +259,14 @@ h3 {
     margin-bottom: 3%;
 }
 
-.news-text{
+.news-text {  
     width: 80%;
     background-color: rgba(69, 68, 68, 0.7);
-    margin-bottom: 3%;
     padding: 3%;
 }
 
 .news-text-middle {
     background-color: rgba(69, 68, 68, 0.7);
-    margin-bottom: 3%;
     margin-left: 20%;
     padding: 3;
 }
@@ -332,11 +331,11 @@ h3 {
     
     
     #media-link {
-        margin-right: 5%;
+        margin-right: 10%;
     }
     
     #about-link {
-        margin-left: 5%;
+        margin-left: 10%;
     }
     
     
@@ -395,6 +394,9 @@ h3 {
 
 @media screen and (max-width: 600px) {
 
+    #fest-link {
+        font-size: 80%;
+    }
     
 
     .col-third {
@@ -452,11 +454,13 @@ h3 {
     }
 
     #media-link {
-        margin: 1%;
+        margin: 0%;
+        margin-left: 15%;
     }
 
     #about-link {
-        margin: 1%;
+        margin: 0%;
+        margin-right: 15%;
     }
 
     /* Hero image media query rules */
