@@ -265,8 +265,8 @@ button {
     text-align: center;
 }
 
-#CD {
-    width: 60%;
+#record {
+    width: 105%;
     filter: drop-shadow(30px 10px 4px #0f0f0f);
     margin-bottom: 3%;
 }
@@ -299,7 +299,7 @@ button {
 }
 
 #festival-poster {
-    width: 45%;
+    width: 60%;
     filter: drop-shadow(30px 10px 4px #0f0f0f);
     margin-top: 3%;
     margin-bottom: 3%;
@@ -501,7 +501,12 @@ h2 {
 #form-container {
     display: block;
     text-align: center;
+
 }
+
+#mailing-list h3 {
+        background: linear-gradient(to right,  #e55e1d, #fcf6ba,#e55e1d);
+    }
 
 #fest-link {
     font-size: 80%;
@@ -517,7 +522,7 @@ h2 {
     background-color: rgba(69, 68, 68, 0.7);
 }
 .news-box2 {
-    order: 0;
+    order: 1;
 }
 
 .news-text-middle {
@@ -555,17 +560,18 @@ h2 {
 #footer-info {
     order: 4;
     margin-top: 10%;
+    margin-bottom: 3%;
 }
 #footer-logo {
     width: 50%;
 }
 
 #fb-link {
-    margin-left: 15%;
+    margin-left: 8%;
 }
 
 #spfy-link {
-    margin-right: 15%;
+    margin-right: 8%;
 }
 
 @media screen and (max-width: 500px) {
