@@ -374,11 +374,23 @@ button {
 }
 
 #bio-logo {
-    width: 25%;
+    width: 50%;
+}
+
+#bio-box a {
+        text-decoration: none;
+        color: #e55e1d;
+    }
+    
+    
+#bio-box a:hover {
+        border-bottom: 1px solid #e55e1d;
 }
 
 #glory-logo {
-    width: 25%;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 3%;
 }
 
 #going-img {
