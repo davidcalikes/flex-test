@@ -27,6 +27,9 @@ h2 {
     font-size: 300%;
 }
 
+h3 {
+    text-align: center;
+}
 
 /* nav section */
 
@@ -260,6 +263,21 @@ button {
     text-align: center;
 }
 
+.sub-head {  
+    font-size: 200%;
+    font-style: italic;
+    width: 80%;
+    padding: 0%;
+    
+}
+
+.sub-head-full {
+    font-size: 200%;
+    font-style: italic;
+    width: 100%;
+    padding: 0%;
+}
+
 #record {
     width: 105%;
     filter: drop-shadow(30px 10px 4px #0f0f0f);
@@ -282,10 +300,12 @@ button {
     width: 50%;
     filter: drop-shadow(30px 10px 4px #0f0f0f);
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 .news-box2 {
     order: 2;
 }
+
 
 .fire-box {
     height: 450px;
@@ -339,6 +359,19 @@ button {
 #audio-container {
     background: url('../images/radio.jpg') no-repeat center center;
 }
+
+.bio-box {
+    text-align: center;
+    margin: 5%;
+}
+#bio-logo {
+    width: 25%;
+}
+
+#going-img {
+    width: 80%;
+    filter: drop-shadow(30px 10px 4px #0f0f0f);
+    margin-bottom: 3%;
 
 
 @media screen and (max-width: 1020px) {
@@ -675,6 +708,7 @@ audio {
 
     .col-third>a {
     font-size: 70%;
+}
 }
 }
 }
