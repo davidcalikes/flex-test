@@ -564,7 +564,9 @@ width: 40%;
 }
 
 #mailing-list h3 {
-        background: linear-gradient(to right,  #e55e1d, #fcf6ba,#e55e1d);
+        color: #F9F6EE;
+        margin: 3%;
+        background: #0f0f0f;
     }
 
 #fest-link {
@@ -631,6 +633,10 @@ width: 40%;
 
 #spfy-link {
     margin-right: 8%;
+}
+
+#audio-container h2 {
+    margin-top: 9%;
 }
 
 @media screen and (max-width: 500px) {
