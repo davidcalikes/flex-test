@@ -439,6 +439,20 @@ button {
             height: 50%;
         }
 
+        .news-text {
+            width: auto;
+            background-color: #0f0f0f;
+        }
+        .news-box2 {
+            order: 0;
+        }
+        
+        .news-text-middle {
+            background-color: #0f0f0f;
+            margin-left: 0;
+            
+        }
+
         .news-box2 {
             order: 0;
         }
