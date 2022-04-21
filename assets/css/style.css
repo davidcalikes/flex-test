@@ -387,6 +387,12 @@ button {
         border-bottom: 1px solid #e55e1d;
 }
 
+#bio-d {
+    width: 80%;
+    margin-bottom: 9%;
+    filter: drop-shadow(30px 10px 4px #0f0f0f);
+}
+
 #glory-logo {
     text-align: center;
     width: 50%;
