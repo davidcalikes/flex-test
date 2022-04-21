@@ -666,8 +666,12 @@ width: 40%;
 audio {
     width: 250px;
 }
-.col-third>a {
+
+@media screen and (max-width: 350px) {
+
+    .col-third>a {
     font-size: 70%;
+}
 }
 }
 }
