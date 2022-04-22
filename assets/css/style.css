@@ -417,14 +417,13 @@ button {
 .contact-box a {
         text-decoration: none;
         color: #e55e1d;
+        margin-bottom: 6%;
     }
     
     
 #contact-box a:hover {
         border-bottom: 1px solid #e55e1d;
 }
-
-
 
 #epk {
     margin: 10%;
