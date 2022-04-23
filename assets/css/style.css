@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -8,16 +8,15 @@
 
 
 body {
-    font-family: Open Sans, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-weight: 250;
     color: #F9F6EE;
     background-color: #0f0f0f;
 }
 
 
-h1,
-h2 {
-    font-family: Source Sans Pro, sans-serif;
+h1, h2 {
+    font-family: Raleway, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: rgb(254, 253, 248);
@@ -30,7 +29,13 @@ h2 {
 
 h3 {
     text-align: center;
-}
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    color: rgb(254, 253, 248);
+    margin-top: 3%;
+    margin-bottom: 3%;        
+    font-size: 100%;
+    }
 
 /* nav section */
 
@@ -146,10 +151,28 @@ h2 {
     margin-bottom: 3%;
 }
 
-h3 {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    font-size: 130%;
+
+
+#hero-container {
+    position: relative;
+}
+
+.hero-overlay, .hero-overlay h1 {
+    text-align: right;
+    font-size: 200%;
+    letter-spacing: 2px;
+
+    width: 15%;
+
+    padding: 2%;
+
+    background-color: rgba(69, 68, 68, 0.7);
+
+    bottom: 110px;
+
+
+    position: absolute;
+
 }
 
 .col {
@@ -180,6 +203,7 @@ h3 {
     margin: 0 auto;
     margin-bottom: 3%;
 }
+
 
 #dates a {
     text-decoration: none;
